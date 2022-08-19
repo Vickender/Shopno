@@ -180,8 +180,9 @@ h2 {
 
 .main1 {
 
-    width: 100%;
+    width: 90%;
     height: 80%;
+    margin: 0% 5%;
     background-color: aqua;
     display: flex;
 }
