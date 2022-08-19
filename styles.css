@@ -137,3 +137,12 @@ main {
     background-color: #F8FAF9;
     display: inline-block;
 }
+
+.header {
+
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    display: inline-block;
+    vertical-align: middle;
+}
