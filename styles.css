@@ -153,15 +153,23 @@ main {
     width: 100%;
     height: 20%;
     background-color: aqua;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2 {
+
+    margin: 0%;
+    font-family: RalewayEB;
+    font-size: 36px;
+    text-align: center;
+    color: #242625;
 }
 
 .subheader {
 
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
     font-family: MerriweatherRegular;
     font-size: 30px;
     text-align: center;
