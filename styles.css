@@ -214,3 +214,11 @@ h3 {
     font-size: 20px;
     color: #686A69;
 }
+
+p {
+
+    font-family: MerriweatherRegular;
+    font-size: 14px;
+    color: #A9ABAA;
+    letter-spacing: 1px;
+}
