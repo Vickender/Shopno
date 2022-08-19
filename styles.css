@@ -1,0 +1,121 @@
+html, body {
+
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: RalewayBlack;
+    src: url("./Fonts/Raleway/static/Raleway-Black.ttf");
+}
+
+@font-face {
+    font-family: RalewayEB;
+    src: url("./Fonts/Raleway/static/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: RalewaySB;
+    src: url("./Fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url("./Fonts/Raleway/static/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url("./Fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: MontserratSB;
+    src: url("./Fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url("./Fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url("./Fonts/Merriweather/Merriweather-Regular.ttf"), url("./Fonts/Merriweather/Merriweather-Bold.ttf"), url("./Fonts/Merriweather/Merriweather-Italic.ttf");
+}
+
+.screen1 {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #EFF0F2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+
+    width: 90%;
+    height: 10vh;
+    background-color: #EFF0F2;
+    margin: 5vh 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+h1 {
+
+    width: 80%;
+    margin: 0vh 10%;
+    margin-top: 10vh;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #505052;
+    font-family: RalewayEB;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    text-shadow: 5px 3px 10px #A5A6A8;
+}
+
+mark {
+
+    color: #505052;
+    background-color: #88E4D2;
+}
+
+.flexbutton {
+
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.cubutton {
+
+    width: 18%;
+    min-width: 260px;
+    height: 7vh;
+    max-height: 75px;
+    border: 2px solid #636466;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #636466;
+    font-family: MontserratRegular;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
