@@ -207,3 +207,10 @@ h2 {
     vertical-align: middle;
     background-color: #EFF0F2;
 }
+
+h3 {
+
+    font-family: MerriweatherBold;
+    font-size: 20px;
+    color: #686A69;
+}
