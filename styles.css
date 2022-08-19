@@ -198,3 +198,12 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+.textblock1 {
+
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #EFF0F2;
+}
