@@ -183,7 +183,6 @@ h2 {
     width: 90%;
     height: 80%;
     margin: 0% 5%;
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -212,7 +211,6 @@ h2 {
     height: 50%;
     display: inline-block;
     vertical-align: middle;
-    background-color: #EFF0F2;
 }
 
 h3 {
