@@ -42,8 +42,18 @@ html, body {
 }
 
 @font-face {
-    font-family: Merriweather;
-    src: url("./Fonts/Merriweather/Merriweather-Regular.ttf"), url("./Fonts/Merriweather/Merriweather-Bold.ttf"), url("./Fonts/Merriweather/Merriweather-Italic.ttf");
+    font-family: MerriweatherRegular;
+    src: url("./Fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherBold;
+    src: url("./Fonts/Merriweather/Merriweather-Bold.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherItalic;
+    src: url("./Fonts/Merriweather/Merriweather-Italic.ttf");
 }
 
 .screen1 {
@@ -145,4 +155,12 @@ main {
     background-color: aqua;
     display: inline-block;
     vertical-align: middle;
+}
+
+.subheader {
+
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
 }
