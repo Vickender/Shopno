@@ -185,6 +185,11 @@ h2 {
     margin: 0% 5%;
     background-color: aqua;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .imagetype1 {
