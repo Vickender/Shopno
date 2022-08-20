@@ -191,10 +191,20 @@ h2 {
     align-items: flex-start;
 }
 
-.imagetype1 {
+.imagewrap {
 
     width: 30%;
-    height: 65%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagetype1 {
+
+    width: 100%;
+    height: 95%;
     display: inline-block;
     vertical-align: middle;
     background-color: #636466;
@@ -203,6 +213,28 @@ h2 {
     background-size: 100% 100%;
     box-shadow: -80px 0px 2px -40px #E9EAEC, 
                  80px 0px 2px -40px #E9EAEC;
+}
+
+.dotswrap {
+
+    width: 5%;
+    min-width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.dotswrap div {
+
+    width: 10px;
+    min-width: 10px;
+    max-width: 10px;
+    height: 10px;
+    min-height: 10px;
+    max-height: 10px;
+    background-color: #A9ABAA;
+    border-radius: 50%;
 }
 
 .textblock1 {
