@@ -267,3 +267,12 @@ p {
     margin: 5% 0%;
     line-height: 180%;
 }
+
+.screen3 {
+
+    width: 100%;
+    height: 50%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+}
