@@ -276,3 +276,11 @@ p {
     display: inline-block;
     vertical-align: middle;
 }
+
+.main2 {
+
+    width: 90%;
+    height: 85%;
+    margin: 0% 5%;
+    display: flex;
+}
