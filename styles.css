@@ -249,8 +249,8 @@ h2 {
 
 .textblock1 {
 
-    width: 40%;
-    height: 65%;
+    width: 600px;
+    height: 860px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -267,7 +267,7 @@ h3 {
 p {
 
     font-family: MerriweatherRegular;
-    font-size: 16px;
+    font-size: 18px;
     color: #A9ABAA;
     letter-spacing: 1px;
     margin: 5% 0%;
