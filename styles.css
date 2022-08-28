@@ -199,8 +199,8 @@ h2 {
 
 .imagewrap {
 
-    width: 30%;
-    height: 70%;
+    width: 600px;
+    height: 860px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
