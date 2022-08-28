@@ -280,12 +280,10 @@ p {
 .main2 {
 
     width: 90%;
-    height: 85%;
+    height: 1260px;
     margin: 0% 5%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .main2 div {
