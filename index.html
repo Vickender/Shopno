@@ -3,23 +3,429 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./animations.css">
+    <link rel="stylesheet" href="./stable.css">
     <link rel="icon" href="./Logos/Logo.svg">
     <title>Shopno</title>
+
 </head>
 
 <body>
 
-    <section class="screen1">
+    <div class="loader">
+        <img id="shopno1" src="./Logos/Logo.svg" alt="Shopno logo">
+        <img class="stars s1" src="./Icons/star.svg.svg" alt="star">
+        <img class="stars s2" src="./Icons/star.svg.svg" alt="star">
+        <img class="stars s3" src="./Icons/star.svg.svg" alt="star">
+        <img class="stars s4" src="./Icons/star.svg.svg" alt="star">
+        <img class="stars s5" src="./Icons/star.svg.svg" alt="star">
+
+    </div>
+
+    <section id="scrollhome" class="screen1">
         <header>
-            <img id="shopno" src="./Logos/Logo.svg" alt="Shopno logo"><!--
-            --><img id="menu" src="./Icons/menu.svg.svg" alt="Menu icon">
+            <a href="./index.html"><img id="shopno" src="./Logos/Logo.svg" alt="Shopno logo"></a><!--
+            --><input id="check" type="checkbox">
+               <label for="check">
+                    <img id="menuicon" src="./Icons/menu.svg.svg" alt="Menu icon"><!--
+                    --><span id="menuwrap">
+                            <a href="./index.html"><b id="mh">Home</b></a>
+                            <a href="#aboutus"><b>About Us</b></a>
+                            <a href="#featuredworks"><b>Featured Works</b></a>
+                            <a href="#smallteam"><b>Team</b></a>
+                            <a href="#reviews"><b>Reviews</b></a>
+                            <a href="#partners"><b>Partners</b></a>
+                            <a href="#contactus"><b>Contact Us</b></a>
+                            <a href="#followus"><b>Follow Us</b></a>
+                    </span>
+               </label>
         </header>
 
         <h1>SAY HELLO TO <mark>SHOPNO!</mark><br><mark>AGENCY </mark>CORPORATE SHOPNO THEME</h1><!--
-        --><div class="flexbutton"><div class="cubutton">CONTACT US</div></div>
+        --><div class="flexbutton"><input type="button" value="CONTACT" class="cubutton"></div>
 
-    </section>
+        <a href="#scrollhome"><div class="scrl" id="scrollup"></div></a>
+        <a href="#followus"><div class="scrl" id="scrolldown"></div></a>
+    </section><!--
+    --><main>
+
+        <section id="aboutus" class="screen2">
+            <section class="header">
+                <h2>ABOUT US</h2><!--
+                --><div class="subheader">LOREM IPSUM DOLOR SIT AMET LANDING TEMPLATE</div>
+            </section><!--
+            --><section class="main1"><!--
+            --> <section class="mainwrap">
+                    <div class="imagewrap">
+                    <div class="imagetype1"></div><!--
+                    --><div class="dotswrap">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                        <div class="dot4"></div>
+                        </div>
+                    </div><!--
+                --><div class="textblock1">
+                    <h3 class="h31">WE ACTUALLY DO AMAZING WORKS</h3><!--
+                    --><p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><!--
+                    --><p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</p><!--
+                    --><h3 class="h31">WHY WE ARE THE GREATEST?</h3><!--
+                    --><p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.<br>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </section>
+            </section>
+        </section><!--
+        --><section id="featuredworks" class="screen3">
+                <section class="header">
+                    <h2>FEATURED WORKS</h2><!--
+                    --><div class="subheader">LOREM IPSUM DOLOR SIT AMET LANDING TEMPLATE</div>
+                </section><!--
+                --><section class="main2">
+                    <div>
+                        <img src="./Images/Art/donate.jpg.jpg" alt="donate"><!--
+                        --><img src="./Images/Art/businesscards.jpg.jpg" alt="businesscards"><!--
+                        --><img src="./Images/Art/bottles.jpg.jpg" alt="bottles"><!--
+                        --><img src="./Images/Art/sketchbook.jpg.jpg" alt="sketchbook"><!--
+                        --><img src="./Images/Art/illustration3d.jpg" alt="illustration3d"><!--
+                        --><img src="./Images/Art/coffeepacket.jpg" alt="coffeepacket">
+                    </div>
+            </section>
+        </section>
+        <hr>
+        <section id="smallteam" class="screen4">
+            <section class="header">
+                <h2>SMALL TEAM</h2><!--
+                --><div class="subheader">LOREM IPSUM DOLOR SIT AMET LANDING TEMPLATE</div>
+            </section><!--
+            --><section class="main3">
+                <div id="people">
+                    <div id="woman1">
+                        <svg id="panel1" width="471" height="90" viewBox="0 0 471 90">
+                           <path fill="#88E4D2" stroke="#88E4D2" stroke-width="2" d="
+                            M 100 -10
+                            l 40 40
+                            l 310 0
+                            l 0 320
+                            l -430 0
+                            l 0 -320
+                            l 40 0
+                            "/>
+                            <text x="100" y="120" fill="#262B2E" font-size="20" font-family=MerriweatherBold>ANN CLAIR</text>
+                            <text x="230" y="120" fill="#979797" font-size="14" font-family=MerriweatherItalic>/ UI/UX DESIGNER</text>
+                            <text x="100" y="180" fill="#979797" font-size="14" font-family=MerriweatherRegular>Lorem ipsum is simply dummy text</text>
+                            <text x="100" y="205" fill="#979797" font-size="14" font-family=MerriweatherRegular>of the printing and you standard dummy</text>
+                            <text x="100" y="230" fill="#979797" font-size="14" font-family=MerriweatherRegular>standard dummy know that text ever.</text>
+                            <a href="https://www.facebook.com/" target="_blank"><image x="100" y="280" width="20" height="20" href="./Icons/facebook2.svg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><image x="150" y="280" width="20" height="20" href="./Icons/twitter2.svg"/></a>
+                            <a href="https://dribbble.com/" target="_blank"><image x="200" y="280" width="20" height="20" href="./Icons/dribble2.svg"/></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank"><image x="250" y="278" width="25" height="25" href="./Icons/mail2.svg"/></a>
+                        </svg>
+                    </div><!--
+                    --><div id="man1">
+                        <svg id="panel2" width="471" height="90" viewBox="0 0 471 90">
+                            <path fill="#88E4D2" stroke="#88E4D2" stroke-width="2" d="
+                            M 100 -10
+                            l 40 40
+                            l 310 0
+                            l 0 320
+                            l -430 0
+                            l 0 -320
+                            l 40 0
+                            "/>
+                            <text x="100" y="120" fill="#262B2E" font-size="20" font-family=MerriweatherBold>AL RAYHAN</text>
+                            <text x="230" y="120" fill="#979797" font-size="14" font-family=MerriweatherItalic>/ UI/UX DESIGNER</text>
+                            <text x="100" y="180" fill="#979797" font-size="14" font-family=MerriweatherRegular>Lorem ipsum is simply dummy text</text>
+                            <text x="100" y="205" fill="#979797" font-size="14" font-family=MerriweatherRegular>of the printing and you standard dummy</text>
+                            <text x="100" y="230" fill="#979797" font-size="14" font-family=MerriweatherRegular>standard dummy know that text ever.</text>
+                            <a href="https://www.facebook.com/" target="_blank"><image x="100" y="280" width="20" height="20" href="./Icons/facebook2.svg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><image x="150" y="280" width="20" height="20" href="./Icons/twitter2.svg"/></a>
+                            <a href="https://dribbble.com/" target="_blank"><image x="200" y="280" width="20" height="20" href="./Icons/dribble2.svg"/></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank"><image x="250" y="278" width="25" height="25" href="./Icons/mail2.svg"/></a>
+                        </svg>
+                    </div><!--
+                    --><div id="man2">
+                        <svg id="panel3" width="471" height="90" viewBox="0 0 471 90">
+                            <path fill="#88E4D2" stroke="#88E4D2" stroke-width="2" d="
+                            M 100 -10
+                            l 40 40
+                            l 310 0
+                            l 0 320
+                            l -430 0
+                            l 0 -320
+                            l 40 0
+                            "/>
+                            <text x="100" y="120" fill="#262B2E" font-size="20" font-family=MerriweatherBold>JON DOWER</text>
+                            <text x="230" y="120" fill="#979797" font-size="14" font-family=MerriweatherItalic>/ UI/UX DESIGNER</text>
+                            <text x="100" y="180" fill="#979797" font-size="14" font-family=MerriweatherRegular>Lorem ipsum is simply dummy text</text>
+                            <text x="100" y="205" fill="#979797" font-size="14" font-family=MerriweatherRegular>of the printing and you standard dummy</text>
+                            <text x="100" y="230" fill="#979797" font-size="14" font-family=MerriweatherRegular>standard dummy know that text ever.</text>
+                            <a href="https://www.facebook.com/" target="_blank"><image x="100" y="280" width="20" height="20" href="./Icons/facebook2.svg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><image x="150" y="280" width="20" height="20" href="./Icons/twitter2.svg"/></a>
+                            <a href="https://dribbble.com/" target="_blank"><image x="200" y="280" width="20" height="20" href="./Icons/dribble2.svg"/></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank"><image x="250" y="278" width="25" height="25" href="./Icons/mail2.svg"/></a>
+                        </svg>
+                    </div><!--
+                    --><div id="man3">
+                        <svg id="panel4" width="471" height="90" viewBox="0 0 471 90">
+                            <path fill="#88E4D2" stroke="#88E4D2" stroke-width="2" d="
+                            M 100 -10
+                            l 40 40
+                            l 310 0
+                            l 0 320
+                            l -430 0
+                            l 0 -320
+                            l 40 0
+                            "/>
+                            <text x="100" y="120" fill="#262B2E" font-size="20" font-family=MerriweatherBold>CHRIS JANY</text>
+                            <text x="230" y="120" fill="#979797" font-size="14" font-family=MerriweatherItalic>/ UI/UX DESIGNER</text>
+                            <text x="100" y="180" fill="#979797" font-size="14" font-family=MerriweatherRegular>Lorem ipsum is simply dummy text</text>
+                            <text x="100" y="205" fill="#979797" font-size="14" font-family=MerriweatherRegular>of the printing and you standard dummy</text>
+                            <text x="100" y="230" fill="#979797" font-size="14" font-family=MerriweatherRegular>standard dummy know that text ever.</text>
+                            <a href="https://www.facebook.com/" target="_blank"><image x="100" y="280" width="20" height="20" href="./Icons/facebook2.svg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><image x="150" y="280" width="20" height="20" href="./Icons/twitter2.svg"/></a>
+                            <a href="https://dribbble.com/" target="_blank"><image x="200" y="280" width="20" height="20" href="./Icons/dribble2.svg"/></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank"><image x="250" y="278" width="25" height="25" href="./Icons/mail2.svg"/></a>
+                        </svg>
+                    </div><!--
+                    --><div id="woman2">
+                        <svg id="panel5" width="471" height="90" viewBox="0 0 471 90">
+                            <path fill="#88E4D2" stroke="#88E4D2" stroke-width="2" d="
+                            M 100 -10
+                            l 40 40
+                            l 310 0
+                            l 0 320
+                            l -430 0
+                            l 0 -320
+                            l 40 0
+                            "/>
+                            <text x="100" y="120" fill="#262B2E" font-size="20" font-family=MerriweatherBold>JULIA SELIN</text>
+                            <text x="230" y="120" fill="#979797" font-size="14" font-family=MerriweatherItalic>/ UI/UX DESIGNER</text>
+                            <text x="100" y="180" fill="#979797" font-size="14" font-family=MerriweatherRegular>Lorem ipsum is simply dummy text</text>
+                            <text x="100" y="205" fill="#979797" font-size="14" font-family=MerriweatherRegular>of the printing and you standard dummy</text>
+                            <text x="100" y="230" fill="#979797" font-size="14" font-family=MerriweatherRegular>standard dummy know that text ever.</text>
+                            <a href="https://www.facebook.com/" target="_blank"><image x="100" y="280" width="20" height="20" href="./Icons/facebook2.svg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><image x="150" y="280" width="20" height="20" href="./Icons/twitter2.svg"/></a>
+                            <a href="https://dribbble.com/" target="_blank"><image x="200" y="280" width="20" height="20" href="./Icons/dribble2.svg"/></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank"><image x="250" y="278" width="25" height="25" href="./Icons/mail2.svg"/></a>
+                        </svg>
+                    </div><!--
+                    --><div id="man4">
+                        <svg id="panel6" width="471" height="90" viewBox="0 0 471 90">
+                            <path fill="#88E4D2" stroke="#88E4D2" stroke-width="2" d="
+                            M 100 -10
+                            l 40 40
+                            l 310 0
+                            l 0 320
+                            l -430 0
+                            l 0 -320
+                            l 40 0
+                            "/>
+                            <text x="100" y="120" fill="#262B2E" font-size="20" font-family=MerriweatherBold>PETER KAN</text>
+                            <text x="230" y="120" fill="#979797" font-size="14" font-family=MerriweatherItalic>/ UI/UX DESIGNER</text>
+                            <text x="100" y="180" fill="#979797" font-size="14" font-family=MerriweatherRegular>Lorem ipsum is simply dummy text</text>
+                            <text x="100" y="205" fill="#979797" font-size="14" font-family=MerriweatherRegular>of the printing and you standard dummy</text>
+                            <text x="100" y="230" fill="#979797" font-size="14" font-family=MerriweatherRegular>standard dummy know that text ever.</text>
+                            <a href="https://www.facebook.com/" target="_blank"><image x="100" y="280" width="20" height="20" href="./Icons/facebook2.svg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><image x="150" y="280" width="20" height="20" href="./Icons/twitter2.svg"/></a>
+                            <a href="https://dribbble.com/" target="_blank"><image x="200" y="280" width="20" height="20" href="./Icons/dribble2.svg"/></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank"><image x="250" y="278" width="25" height="25" href="./Icons/mail2.svg"/></a>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </section><!--
+        --><section id="reviews" class="screen5">
+            <section class="header">
+                <h2>WHAT THEY SAY</h2><!--
+                --><div class="subheader">LOREM IPSUM DOLOR SIT AMET LANDING TEMPLATE</div>
+            </section><!--
+            --><section class="main4">
+                <section class="mainwrap2">
+                    <div class="imagewrap2">
+                    <div class="imagetype2"></div><!--
+                    --><div class="dotswrap margindots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                        <div class="dot4"></div>
+                        </div>
+                    </div><!--
+                    --><section class="textblock2">
+                        <div class="textwrap1">
+                            <h3 class="h32">AL RAYHAN 
+                            <span class="i1">/ UI/UX DESIGNER</span>
+                            </h3>
+                            <p class="p2">Lorem ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="starswrap">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                            </div>
+                        </div><!--
+                        --><div class="textwrap2">
+                            <h3 class="h32">MARIE CLAIRE
+                                <span class="i1">/ Product DESIGNER</span>
+                            </h3>
+                            <p class="p2">Lorem ipsum is simply dummy text of the printing and you standard dummy know that text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="starswrap">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                            </div>
+                        </div><!--
+                        --><div class="textwrap3">
+                            <h3 class="h32">JOHN DAVIS
+                                <span class="i1">/ UI/UX DESIGNER</span>
+                            </h3>
+                            <p class="p2">Lorem ipsum is simply dummy text of the printing and you standard dummy know that text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="starswrap">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                            </div>
+                        </div><!--
+                        --><div class="textwrap4">
+                            <h3 class="h32">ALMA RICHY
+                                <span class="i1">/ UI/UX DESIGNER</span>
+                            </h3>
+                            <p class="p2">Lorem ipsum is simply dummy text of the printing and you standard dummy know that text ever since the
+                                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="starswrap">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                                <img src="./Icons/star.svg.svg" alt="star">
+                            </div>
+                        </div>
+                    </section><!--
+                    --><div class="buttonwrap">
+                                <a href=""><div id="buttonleft"></div></a>
+                                <a href=""><div id="buttonright"></div></a>
+                            </div>
+                </section>
+            </section>
+        </section><!--
+        --><section id="partners" class="screen6">
+                <section class="main5">
+                    <div class="wrap1"><svg width="175" height="85" viewBox="0 0 175 85">
+                    <path stroke-width="20" stroke="#A9AEB1" fill="none" d="
+                    M 35 19
+                    l 20 25
+                    l -20 25
+                    l -20 -25
+                    z
+                    "/>
+                    <text font-family="RalewayRegular" font-size="48" fill="#A9AEB1" x="80" y="60" >RKO</text>
+                    </svg><!--
+                    --><svg class="audio" width="177" height="54" viewBox="0 0 177 54">
+                    <text font-family="RalewaySB" font-size="40" fill="#A9AEB1" x="0" y="38">AudioPro</text>
+                    <line x1="0" y1="50" x2="175" y2="50" stroke="#A9AEB1" stroke-width="5" />
+                </svg><!--
+                --><svg width="190" height="62" viewBox="0 0 190 62">
+                    <circle cx="30" cy="30" r="30" fill="#A9AEB1" />
+                    <text font-family="MerriweatherRegular" font-size="30" fill="#A9AEB1" x="75" y="43" >Infinity</text>
+                </svg></div><!--
+                --><div class="wrap2"><svg width="190" height="70" viewBox="0 0 190 70">
+                    <image href="./Logos/SportLogo.svg" width="70" height="70" />
+                    <text font-family="RalewaySB" font-style="italic" font-size="40" fill="#A9AEB1" x="80" y="45">Sport</text>
+                    <text font-family="RalewaySB" font-style="italic" font-size="16" fill="#A9AEB1" x="130" y="65">System</text>
+                </svg><!--
+                --><svg width="175" height="70" viewBox="0 0 175 70">
+                    <image href="./Logos/SwanLogo.svg" width="70" height="70" />
+                    <text font-family="RalewayRegular" font-size="40" letter-spacing="-2" fill="#A9AEB1" x="80" y="45">Swan</text>
+                    <text font-family="RalewayRegular" font-size="14" fill="#A9AEB1" x="83" y="65">color your life</text>
+                </svg><!--
+                --><svg width="200" height="57" viewBox="0 0 200 57">
+                    <text font-family="RalewaySB" font-size="48" font-style="italic" fill="#A9AEB1" x="0" y="45">Swanser</text>
+                </svg><!--
+                --><svg width="177" height="54" viewBox="0 0 177 54">
+                    <text font-family="RalewaySB" font-size="40" fill="#A9AEB1" x="0" y="38">AudioPro</text>
+                    <line x1="0" y1="50" x2="175" y2="50" stroke="#A9AEB1" stroke-width="5" />
+                </svg><!--
+                --><svg width="190" height="62" viewBox="0 0 190 62">
+                    <circle cx="30" cy="30" r="30" fill="#A9AEB1" />
+                    <text font-family="MerriweatherRegular" font-size="30" fill="#A9AEB1" x="75" y="43">Infinity</text>
+                </svg><!--
+                --><svg width="175" height="85" viewBox="0 0 175 85">
+                    <path stroke-width="20" stroke="#A9AEB1" fill="none" d="
+                    M 35 19
+                    l 20 25
+                    l -20 25
+                    l -20 -25
+                    z
+                    "/>
+                    <text font-family="RalewayRegular" font-size="48" fill="#A9AEB1" x="80" y="60" >RKO</text>
+                    </svg></div>
+
+                </section>
+                
+                
+
+        </section><!--
+        --><section id="contactus" class="screen7">
+            <section class="main6">
+                <section id="form">
+                        <div id="formwrap">
+                            <form action="send">
+                            <input type="text" id="name" name="name" required placeholder="Name*"><!--
+                            --><input type="text" id="subject" name="subject" required placeholder="Subject*"><!--
+                            --><input type="text" id="email" name="email" required placeholder="E-mail*"><!--
+                            --><input type="text" id="message" name="message" required placeholder="Message*"><!--
+                            --><button type="button">SEND MESSAGE</button>
+                            </form>
+                        </div>
+                </section><!--
+                --><section id="contact">
+                    <div id="contactwrap">
+                        <div id="contacttext">
+                            Adress line 1<br>
+                            Adress line 2<br>
+                            Phone: +548 945645<br>
+                            Fax: +45645654546
+                            <p class="p1">
+                                Web: www.designagency.net<br>
+                                E-mail: info@designagency.net
+                            </p>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959290.5754066103!2d-122.13573266006314!3d37.83615371787144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sua!4v1662783512167!5m2!1sen!2sua"
+                             style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+    </main><!--
+    --><footer>
+        <section id="followus" class="footerwrap">
+            <p>FOLLOW US</p>
+            <div class="iconswrap">
+                <a href="https://www.pinterest.com/" target="_blank"><div id="pin"></div></a>
+                <a href="https://twitter.com/" target="_blank"><div id="twit"></div></a>
+                <a href="https://www.facebook.com/" target="_blank"><div id="face"></div></a>
+                <a href="https://dribbble.com/" target="_blank"><div id="drib"></div></a>
+            </div>
+            <p id="cr">Copyright Masum Parvey. All Rights Reserved</p>
+        </section>
+    </footer>
+
 
 </body>
 
