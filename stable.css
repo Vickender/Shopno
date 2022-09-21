@@ -89,6 +89,10 @@
 
 /*Cursor, links and selection*/
 
+div {
+    cursor: url("./Icons/cursorpoint.svg"), default;
+}
+
 input {
     cursor: url("./Icons/cursorpoint.svg"), default;
 }
