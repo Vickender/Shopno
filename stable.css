@@ -98,7 +98,7 @@ input {
 }
 
 :root {
-    cursor: url("./Icons/cursorpoint.svg"), pointer;
+    cursor: url("./Icons/cursorpoint.svg"), default;
 }
 
 :root:active {
