@@ -1,0 +1,49 @@
+@font-face {
+    font-family: RalewayBlack;
+    src: url("./Fonts/Raleway/static/Raleway-Black.ttf");
+}
+
+@font-face {
+    font-family: RalewayEB;
+    src: url("./Fonts/Raleway/static/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: RalewaySB;
+    src: url("./Fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url("./Fonts/Raleway/static/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url("./Fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: MontserratSB;
+    src: url("./Fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url("./Fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherRegular;
+    src: url("./Fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherBold;
+    src: url("./Fonts/Merriweather/Merriweather-Bold.ttf");
+}
+
+@font-face {
+    font-family: MerriweatherItalic;
+    src: url("./Fonts/Merriweather/Merriweather-Italic.ttf");
+}

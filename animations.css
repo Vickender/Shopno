@@ -1,0 +1,296 @@
+@keyframes Starmove1 {
+
+    0% {
+        left: 47%;
+        top: 20%;
+    }
+
+    25% {
+        left: 60%;
+        top: 35%;
+    }
+
+    50% {
+        left: 55%;
+        top: 70%;
+    }
+
+    75% {
+        left: 40%;
+        top: 70%;
+    }
+
+    100% {
+        left: 35%;
+        top: 35%;
+    }
+}
+
+@keyframes Starmove2 {
+
+    0% {
+        left: 60%;
+        top: 35%;
+    }
+
+    25% {
+        left: 55%;
+        top: 70%;
+    }
+
+    50% {
+        left: 40%;
+        top: 70%;
+    }
+
+    75% {
+        left: 35%;
+        top: 35%;
+    }
+
+    100% {
+        left: 47%;
+        top: 20%;
+    }
+}
+
+@keyframes Starmove3 {
+
+    0% {
+        left: 55%;
+        top: 70%;
+    }
+
+    25% {
+        left: 40%;
+        top: 70%;
+    }
+
+    50% {
+        left: 35%;
+        top: 35%;
+    }
+
+    75% {
+        left: 47%;
+        top: 20%;
+    }
+
+    100% {
+        left: 60%;
+        top: 35%;
+    }
+}
+
+@keyframes Starmove4 {
+
+    0% {
+        left: 40%;
+        top: 70%;
+    }
+
+    25% {
+        left: 35%;
+        top: 35%;
+    }
+
+    50% {
+        left: 47%;
+        top: 20%;
+    }
+
+    75% {
+        left: 60%;
+        top: 35%;
+    }
+
+    100% {
+        left: 55%;
+        top: 70%;
+    }
+}
+
+@keyframes Starmove5 {
+
+    0% {
+        left: 35%;
+        top: 35%;
+    }
+
+    25% {
+        left: 47%;
+        top: 20%;
+    }
+
+    50% {
+        left: 60%;
+        top: 35%;
+    }
+
+    75% {
+        left: 55%;
+        top: 70%;
+    }
+
+    100% {
+        left: 40%;
+        top: 70%;
+    }
+
+}
+
+@keyframes Screenloader {
+
+    0% {
+
+        visibility: visible;
+    }
+
+    99.9% {
+
+        visibility: visible;
+    }
+
+    100% {
+
+        visibility: hidden;
+    }
+}
+
+@keyframes ImageChange {
+    0% {
+        background-image: url("./Images/Office/businesscenter.jpg.jpg");
+    }
+
+    22% {
+        background-image: url("./Images/Office/businesscenter.jpg.jpg");
+    }
+
+    25% {
+        background-image: url("./Images/Office/workplace.jpg.jpg");
+    }
+
+    47% {
+        background-image: url("./Images/Office/workplace.jpg.jpg");
+    }
+
+    50% {
+        background-image: url("./Images/Office/coworking.jpg.jpg");
+    }
+
+    72% {
+        background-image: url("./Images/Office/coworking.jpg.jpg");
+    }
+
+    75% {
+        background-image: url("./Images/Office/coffeebreak.jpg.jpg");
+    }
+
+    100% {
+        background-image: url("./Images/Office/coffeebreak.jpg.jpg");
+    }
+}
+
+@keyframes DotChange {
+
+    0% {
+        background-color: var(--nevergreen);
+    }
+
+    22% {
+        background-color: var(--nevergreen);
+    }
+
+    25% {
+        background-color: var(--semi_grey);
+    }
+
+    47% {
+        background-color: var(--semi_grey);
+    }
+
+    50% {
+        background-color: var(--semi_grey);
+    }
+
+    72% {
+        background-color: var(--semi_grey);
+    }
+
+    75% {
+        background-color: var(--semi_grey);
+    }
+
+    100% {
+        background-color: var(--semi_grey);
+    }
+}
+
+@keyframes ImageChange2 {
+    0% {
+        background-image: url("./Images/People/man3.jpg.jpg");
+    }
+
+    22% {
+        background-image: url("./Images/People/man3.jpg.jpg");
+    }
+
+    25% {
+        background-image: url("./Images/People/woman.jpg.jpg");
+    }
+
+    47% {
+        background-image: url("./Images/People/woman.jpg.jpg");
+    }
+
+    50% {
+        background-image: url("./Images/People/man2.jpg.jpg");
+    }
+
+    72% {
+        background-image: url("./Images/People/man2.jpg.jpg");
+    }
+
+    75% {
+        background-image: url("./Images/People/woman2.jpg.jpg");
+    }
+
+    100% {
+        background-image: url("./Images/People/woman2.jpg.jpg");
+    }
+}
+
+@keyframes TextChange2 {
+    0% {
+        z-index: 1;
+    }
+
+    24% {
+        z-index: 1;
+    }
+
+    25% {
+        z-index: -1;
+    }
+
+    49% {
+        z-index: -1;
+    }
+
+    50% {
+        z-index: -2;
+    }
+
+    74% {
+        z-index: -2;
+    }
+
+    75% {
+        z-index: -3;
+    }
+
+    99% {
+        z-index: -3;
+    }
+}
+

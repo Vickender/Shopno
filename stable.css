@@ -1,0 +1,140 @@
+:root {
+
+    /*Colors*/
+
+    --dark_grey: #505052;
+    --semi_grey: #A9ABAA;
+    --blue_grey: #4B5962;
+    --darken_grey: #262B2E;
+    --nevergreen: #88E4D2;
+    --pure_white: #FFFFFF;
+    --milky_white: #E9EAEC;
+    --cream_white: #F8FAF9;
+
+    /*Fonts*/
+
+    --h1: RalewayEB;
+    --h2: RalewayEB;
+    --h3: MerriweatherBold;
+    --content: MerriweatherRegular;
+    --contact: RalewayMedium;
+
+}
+
+/*Preloader*/
+
+.loader {
+
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--milky_white);
+    animation: Screenloader 5s linear normal forwards running;
+}
+
+#shopno1 {
+
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+.stars {
+
+    width: 5%;
+    height: 5%;
+    position: absolute;
+}
+
+.s1 {
+
+    left: 47%;
+    top: 20%;
+    animation: Starmove1 5s linear normal forwards running;
+
+}
+
+.s2 {
+
+    left: 60%;
+    top: 35%;
+    animation: Starmove2 5s linear normal forwards running;
+}
+
+.s3 {
+
+    left: 55%;
+    top: 70%;
+    animation: Starmove3 5s linear normal forwards running;
+}
+
+.s4 {
+
+    left: 40%;
+    top: 70%;
+    animation: Starmove4 5s linear normal forwards running;
+}
+
+.s5 {
+
+    left: 35%;
+    top: 35%;
+    animation: Starmove5 5s linear normal forwards running;
+}
+
+/*Cursor, links and selection*/
+
+input {
+    cursor: url("./Icons/cursorpoint.svg"), default;
+}
+
+:root {
+    cursor: url("./Icons/cursorpoint.svg"), pointer;
+}
+
+:root:active {
+    cursor: url("./Icons/cursortext.svg"), auto;
+}
+
+a:link {
+
+    color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+::selection {
+
+    color: var(--darken_grey);
+    background-color: var(--nevergreen);
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--dark_grey);
+    background-color: var(--semi_grey);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--darken_grey);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--nevergreen);
+}
+
+::-webkit-scrollbar-track-piece {
+    box-shadow: inset 0 0 5px var(--dark_grey);
+}
